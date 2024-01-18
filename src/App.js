@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Popular from "./components/Popular";
+import Navbar from "./components/Navbar";
+import Vegge from "./components/Vegge";
+import Italian from "./components/Italian";
+import American from "./components/American";
+import Thai from "./components/Thai";
+import Japanese from "./components/Japanese";
+import Recipe from "./components/Recipe";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/popular" element={<Popular />} />
+        <Route path="/vegge" element={<Vegge />} />
+        <Route path="/italian" element={<Italian />} />
+        <Route path="/american" element={<American />} />
+        <Route path="/thai" element={<Thai />} />
+        <Route path="/japanese" element={<Japanese />} />
+        <Route path="/recipe/:id" element={<Recipe />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
