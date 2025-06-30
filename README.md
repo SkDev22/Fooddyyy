@@ -2,7 +2,7 @@
 
 A modern food recipe web application built with the **Front-end Technologies** — [React.js](https://reactjs.org/) Styled using [Tailwind CSS](https://tailwindcss.com/) for a sleek, responsive, mobile-first UI And external food recipe API - [Spoonacular API](https://spoonacular.com/food-api)
 
-This project showcases my ability to build scalable, real-world web applications with clean code architecture, intuitive design, and modern development best practices. This is a food recipe website, designed to find various food recipes of the world.
+Fooddyyy is a place that users can find various food recipes. They can find our popular food recipes and specially vegitarian recipes. And also users can find Italian, American, Thai and Japanese food recipes. This website gives more information about each food and instructions to cook it.
 
 [Visit Website](https://fooddyyy.netlify.app/)
 
