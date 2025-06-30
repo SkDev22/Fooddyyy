@@ -1,4 +1,4 @@
-# 💫 Portfolio Website Project
+# 💫 Fooddyyy - Food recipe Website Project
 
 A modern food recipe web application built with the **Front-end Technologies** — [React.js](https://reactjs.org/) Styled using [Tailwind CSS](https://tailwindcss.com/) for a sleek, responsive, mobile-first UI And external food recipe API - [Spoonacular API](https://spoonacular.com/food-api)
 
