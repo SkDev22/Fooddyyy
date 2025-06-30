@@ -24,8 +24,8 @@ Fooddyyy is a place that users can find various food recipes. They can find our 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/SkDev22/project-name.git
-cd project-name
+git clone https://github.com/SkDev22/Fooddyyy.git
+cd Fooddyyy
 ```
 
 ### Frontend Setup
